@@ -10,3 +10,16 @@ The main folder contains the original Solidworks files, both solidprt and assemb
 To make a putter you'd have your manufacturer of choice make: 1 x FLAB body, 1 x face insert, 1 x Shaft block (in the lie angle of your choice, or multiple if you want to change between shafts). You'll also need the various screws to hold the shaft block to the head and use as balancing weights under the putter. The file names for the screws are the part number you can order them as on McMaster-Carr, but they should also all be available locally at most hardware stores.
 
 There's also a set of soft jaws to hold the face insert at a 3 degree angle to cut the face loft on a typical mill setup. I did it this way because I wanted texture on the face and JLCCNC didn't have an option for cutting a specific texture on the face. If however you don't have access to a mill, you can use the STEP file that has a 3 degree loft geometry already cut into the face and a smooth face would be just like plenty of Scotty Cameron or other putters on the market with a smooth face.
+
+------------------------------UPDATE 6/19/2025------------------------------
+
+Added a new version of the FLAB that reduces weight down to 509 grams total head weight (without the shaft). This was accomplished by making the putter smaller in the face to back direction, as well as a few mm smaller bottom to top side. The face is still just under an inch tall which should be comfortable for most players. 500 grams will still be heavier than most putters on the market, but it shouldn't feel like a sledge hammer which most people feel about the OG FLAB.
+
+As I have thenm configured on JLCCNC as follows:
+1. FLAB body - 6061 Aluminum, bead blasted + anodized, 0.1mm tolerance, no threads (I tap them myself)
+2. Shaft block - 6061 Aluminum, bead blasted + anodized, 0.1mm tolerance
+3. Face Insert - H59 Brass, bead blasted, normal tolerance
+
+Using this configuration, the quote for the pieces is $135 dollars. However, tariffs are about as much as the pieces themselves bringing the total with shipping to just over $300. Tariffs really are the barrier on this project at the moment, if they weren't so high this would actually be a very affordable putter.
+
+I haven't made the soft jaws for the new face insert yet, I'll do that closer to when the parts arrive. That being said, this is still a beta version of the putter because I haven't recieved the parts to verify the fit of all parts; so use them at your own risk.
