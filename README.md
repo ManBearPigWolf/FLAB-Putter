@@ -22,7 +22,7 @@ There's also a set of soft jaws to hold the face insert at a 3 degree angle to c
 
 Added a new version of the FLAB that reduces weight down to 509 grams total head weight (without the shaft). This was accomplished by making the putter smaller in the face to back direction, as well as a few mm smaller bottom to top side. The face is still just under an inch tall which should be comfortable for most players. 500 grams will still be heavier than most putters on the market, but it shouldn't feel like a sledge hammer which most people feel about the OG FLAB.
 
-As I have thenm configured on JLCCNC as follows:
+I configure the parts on JLCCNC as follows:
 1. FLAB body - 6061 Aluminum, bead blasted + anodized, 0.1mm tolerance, no threads (I tap them myself)
 2. Shaft block - 6061 Aluminum, bead blasted + anodized, 0.1mm tolerance
 3. Face Insert - H59 Brass, bead blasted, normal tolerance
@@ -45,3 +45,10 @@ I've received and assembled the Little FLAB and I'm totally in love with it! Som
 3. I've made a drawing for the body piece that shows tapping dimensions. This is useful when having JLCCNC quote the part, you can upload the dimension drawing to have them tap the holes at the factory. If you've never tapped a hole before, tapping blind holes like the weight ports can be tough, especially if you break a tap in the hole. Letting the factory figure it out will be better for most people.
 
 I feel really good about the current state of the project, I love the slightly heavier weight of the head and it rolls balls so clean and pure. That said, if there's anything I can improve on or add to the design I'd love to make this as good of a putter as I can.
+
+
+------------------------------UPDATE 7/23/2025------------------------------
+
+I've updated the soft jaws to support the face during milling so that bending shouldn't be an issue, it'll also probably be easier to 3D print in the new design. I've also uploaded a lot more shaft blocks to the Little FLAB/STEP/ directory. There's now plenty of lie angles and even lefty versions, in both .370 and .355 hosel versions. Regardless, if you don't see the lie angle that fits you, make an issue on the repo and I'll get one generated.
+
+As just a general update, I 3D printed a revealer that uses roller bearings instead of felt to support the shaft. It took some swapping of screw length in the weight ports to get the putter to balance, but I was eventually able to get it to balance pretty well! I had a friend bring over his genuine DF2.1 and DF3 putters, and both of them were about as balanced as my putter. I believe LAB uses felt on their revealer to give them a little wiggle room on balancing; so using roller bearings on my revealer will show if the putter is even slightly out of balance. The putter actually doesn't feel any different now that it passes a revealer test; which to me means to me that the truth about lie angle balancing, as it generally is, is in the middle. It seems that as long as a putter is reasonably within balance, it can help some people with putting, but the claims of how much torque affects a putting stroke are largely overstated. I'm also of the opinion that not every player benefits from a lie angle balanced putting stroke, as evidenced by the simple fact that nobody in at least the top 30 putters on tour (ranked by strokes gained putting) is currently using a zero torque putter.
